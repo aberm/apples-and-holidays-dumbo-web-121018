@@ -56,6 +56,7 @@ def all_winter_holiday_supplies(holiday_hash)
     if season == "winter"
       holidays.each do |name, supplies|
         supplies.values.flatten
+      end
     end
   end
         
